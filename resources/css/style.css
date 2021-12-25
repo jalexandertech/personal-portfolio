@@ -1,0 +1,90 @@
+/* Universial Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body{
+    min-height: 100%;
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Side navigation */
+
+
+
+
+
+/* Hero Section */
+.hero-container{
+    height: auto;
+    width: 100%;
+    background-color: #4B4B4B;
+    
+}
+
+.hero-container .hero-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+
+.hero-container .hero-title{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+
+.hero-container .hero-name{
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 7rem;
+    letter-spacing: 5px;
+}
+
+.hero-container, .hero-name, .hero-title{
+    color: #ffffff;
+}
+
+.hero-container .hero-info{
+    margin: auto 0;
+}
+
+.hero-container .hero-img{
+    border-bottom-left-radius: 80px;
+    border-top-left-radius: 80px 80px;
+    width: 350px;
+}
+
+.hero-container .hero-btn{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+   
+}
+/* About Me Section */
+
+
+
+
+/* Education Section */
+
+
+
+
+/* Projects Section */
+
+
+
+
+/* Top Skills Section */
+
+
+
+
+/* Contact Information Section */
