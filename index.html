@@ -11,30 +11,53 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Open+Sans:wght@300;400;700&family=Righteous&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/12cb185652.js" crossorigin="anonymous"></script>
     <title>Jada | Full Stack Web Developer</title>
 </head>
 
 <body>
     <!-- Navigation Section-->
-    <nav>
-
+    <nav class="sidenav nav">
+        <div class="logo">
+            <a href="#top"> <img src="./resources/imgs/logo.png" alt="logo"></a>
+        </div>
+        <ul>
+            <li> <a href="#about-me">About Me</a> </li>
+            <li> <a href="">Education</a></li>
+            <li> <a href="">Projects</a></li>
+            <li> <a href="">Contact</a></li>
+        </ul>
+        <div class="social-media">
+            <a href="https://github.com/jalexandertech" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/jalexandertech/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
     </nav>
 
     <!-- Content Body -->
-    <main>
+    <main id="top">
         <div class="hero-container">
             <div class="hero-box">
                 <div class="hero-info">
                     <h1 class="hero-name">Jada Alexander</h1>
                     <p class="hero-title">Full Stack Web Developer</p>
+                    <a href="#about-me" class="hero-btn btn-rounded">View My Portfolio
+                    </a> <span class="arrow-btn"></span>
                 </div>
                 <img class="hero-img" src="./resources/imgs/jada.png" alt="Photo of Jada">
             </div>
-
-
-            <button class="hero-btn">View my portfolio <span class="line-btn"></span> </button>
         </div>
-
+        <div class="about-section" id="about-me">
+            <h2>About Me</h2>
+            <p> <span class="bold-text"> My name is Jada Alexander. </span> <br>
+                I am from California, but I have lived in Arizona for over 16 years now. In my spare time, I enjoy
+                spending time with my family. I am currently working in the insurance industry as a Retention
+                Specialist. Still, I also consider myself a self-taught front-end developer who is continuously
+                learning to break into Tech. I have built a couple of websites using HTML, CSS, and JavaScript as
+                practice and for clients. As I stated before, I am still teaching myself how to build websites; I am
+                currently working on a career pathway on Codecademy called "Full Stack Engineer" to get a
+                certificate.
+                I want to know how to build websites focusing on the front-end and back-end of an application.</p>
+        </div>
     </main>
 
     <!-- Footer Section -->
@@ -43,6 +66,7 @@
 
         </div>
     </footer>
+
 </body>
 
 </html>
