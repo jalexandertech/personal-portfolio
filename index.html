@@ -23,9 +23,10 @@
         </div>
         <ul>
             <li> <a href="#about-me">About Me</a> </li>
-            <li> <a href="">Education</a></li>
-            <li> <a href="">Projects</a></li>
-            <li> <a href="">Contact</a></li>
+            <li> <a href="#education">Education</a></li>
+            <li> <a href="#projects">Projects</a></li>
+            <li> <a href="#skills">Skills</a></li>
+            <li> <a href="#contact">Contact</a></li>
         </ul>
         <div class="social-media">
             <a href="https://github.com/jalexandertech" target="_blank"><i class="fab fa-github"></i></a>
@@ -36,17 +37,14 @@
     <!-- Content Body -->
     <main id="top">
         <div class="hero-container">
-            <div class="hero-box">
-                <div class="hero-info">
-                    <h1 class="hero-name">Jada Alexander</h1>
-                    <p class="hero-title">Full Stack Web Developer</p>
-                    <a href="#about-me" class="hero-btn btn-rounded">View My Portfolio
-                    </a> <span class="arrow-btn"></span>
-                </div>
-                <img class="hero-img" src="./resources/imgs/jada.png" alt="Photo of Jada">
+            <div class="hero-info">
+                <h1 class="hero-name">Jada Alexander</h1>
+                <p class="hero-title">Full Stack Web Developer</p>
+                <button class="btn btn-rounded"><a href="#about-me">View My Portfolio</a></button>
             </div>
+            <img class="hero-img" src="./resources/imgs/jada.png" alt="Photo of Jada">
         </div>
-        <div class="about-section" id="about-me">
+        <section class="about-section" id="about-me">
             <h2>About Me</h2>
             <p> <span class="bold-text"> My name is Jada Alexander. </span> <br>
                 I am from California, but I have lived in Arizona for over 16 years now. In my spare time, I enjoy
@@ -57,13 +55,67 @@
                 currently working on a career pathway on Codecademy called "Full Stack Engineer" to get a
                 certificate.
                 I want to know how to build websites focusing on the front-end and back-end of an application.</p>
-        </div>
+        </section>
+        <section class="education-section" id="education">
+            <h2>Education</h2>
+            <div class="education-container">
+                <div class="school-one">
+                    <h3 class="college-name">University of Arizona Global Campus</h3>
+                    <p class="grad-date">August 2020 - August 2023</p>
+                    <span class="blue-line"></span>
+                    <p class="degree">Computer Software Technology, Computer Science</p>
+                </div>
+                <div class="school-two">
+                    <h3 class="college-name">Rio Salado Community College</h3>
+                    <p class="grad-date">August 2013 - August 2020</p>
+                    <span class="blue-line"></span>
+                    <p class="degree">Associate’s Degree, Busines/Commerce, General</p>
+                </div>
+            </div>
+        </section>
+        <section class="projects-section" id="projects">
+            <h2>Projects</h2>
+        </section>
+        <section class="skills-section" id="skills">
+            <h2>Skills</h2>
+            <div class="skill-container">
+                <div class="html-skill">
+                    <p class="skill-name">HTML5</p>
+                    <img src="resources/imgs/HTML.png" alt="html logo">
+                </div>
+                <div class="css-skill">
+                    <p class="skill-name">CSS3</p>
+                    <img src="resources/imgs/CSS.png" alt="css logo">
+                </div>
+                <div class="js-skill">
+                    <p class="skill-name">JavaScript</p>
+                    <img src="resources/imgs/JS.png" alt="javascript logo">
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer Section -->
-    <footer>
-        <div class="social-media">
+    <footer class="contact-section" id="contact">
+        <div class="contact-image">
 
+        </div>
+        <div class="contact-info">
+            <div class="email">
+                <h3>Email Address</h3>
+                <p>j.alexandertech@outlook.com</p>
+            </div>
+            <div class="location">
+                <h3>Location</h3>
+                <p>Maricopa, AZ</p>
+            </div>
+            <div class="social-linkedin">
+                <h3>LinkedIn</h3>
+                <p>@jalexandertech</p>
+            </div>
+            <button class="btn-footer btn">
+
+            </button>
         </div>
     </footer>
 
