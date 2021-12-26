@@ -1,4 +1,4 @@
-/* Universial Styles */
+/* Universal Styles */
 *{
     margin: 0;
     padding: 0;
@@ -27,14 +27,13 @@ a{
 }
 h2{
     background-color: #1D71B8;
-    text-align: center;
+    text-align: right;
     border-bottom-left-radius: 50px 50px;
     border-bottom-right-radius: 50px 50px;
     padding: 15px;
     font-size: 3rem;
     color: #ffffff;
     letter-spacing: 5px;
-    margin: auto 0 auto 15rem;
 }
 .about-section, .education-section, .projects-section{
     width: 100%;
@@ -129,17 +128,16 @@ nav .logo{
 
 .hero-container .hero-info{
     width: 40%;
-    position: absolute;
+    /* position: absolute;
     top:30%;
     left: 30%;
-    translate: (-30%, -30%);
+    translate: (-30%, -30%); */
+    margin: auto 0 auto 5rem;
 }
 
 .hero-container .hero-img{
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
-    /* border-bottom-left-radius: 80px;
-    border-top-left-radius: 80px 80px; */
     width: 28.5%;
 }
 
@@ -178,13 +176,13 @@ nav .logo{
 }
 .about-section p{
     line-height: 2.5;
-    width: 70%;
-    margin: 5rem 0 auto 25rem;
+    padding: 25px;
+    margin: 5rem 0 auto 15rem;
 }
 
 .bold-text{
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 /* Education Section */
@@ -240,11 +238,13 @@ nav .logo{
 .skill-container{
     display: flex;
     flex-direction: row;
-    margin: 5rem 0 auto 28rem;
+    justify-content: space-evenly;
+    margin: 5rem 0 auto 15rem;
 }
 
+
 .skills-section .html-skill, .css-skill, img{
-    width: 250px;
+    width: 200px;
 }
 
 .skill-container .skill-name{
@@ -265,7 +265,7 @@ footer .contact-info{
     flex-direction: row;
     justify-content: space-between;
     color: #ffffff;
-    margin: auto 0 auto 25rem;
+    margin: auto 0 auto 15rem;
 }
 
 .btn-footer{
