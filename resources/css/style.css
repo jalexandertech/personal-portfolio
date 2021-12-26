@@ -145,12 +145,14 @@ nav .logo{
     color: #ffffff;
     background-color: #1D71B8;
     border: 1px solid transparent;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
 .btn a{
     color: #ffffff;
+    letter-spacing: 2px;
+    padding: 11px;
 }
 
 .btn:hover{
@@ -167,6 +169,10 @@ nav .logo{
 }
 
 /* About Me Section */
+.about-section{
+    background-color: #4B4B4B;
+    color: #ffffff;
+}
 .about-section p{
     line-height: 2.5;
     width: 70%;
@@ -215,16 +221,14 @@ nav .logo{
 
 .education-container .grad-date{
     color: #1D71B8;
-    font-weight: 400;
+    font-weight: 700;
 }
 
-.blue-line{
-    content: "";
-
-}
 
 /* Projects Section */
-
+.projects-section{
+    background-color: #4B4B4B;
+}
 
 
 
