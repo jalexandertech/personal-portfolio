@@ -262,7 +262,7 @@ nav .logo{
 .card{
     border: 1px solid white;
     border-radius: 40px;
-    height: 300px;
+    height: 315px;
     width: 28%;
     display: flex;
     align-items: center;
@@ -288,6 +288,10 @@ nav .logo{
 
 .projects-container .project-name{
     font-weight: 700;
+}
+
+.projects-container .tech-stack{
+    padding: 15px;
 }
 /* Top Skills Section */
 .skills-section{
